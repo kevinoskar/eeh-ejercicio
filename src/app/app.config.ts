@@ -1,1 +1,1 @@
-export const API_URL = 'http://f27c-144-202-100-18.ngrok.io/smartbot/api/test';
+export const API_URL = 'https://f27c-144-202-100-18.ngrok.io/smartbot/api/test';

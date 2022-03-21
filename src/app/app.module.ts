@@ -7,7 +7,6 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { MessagesCustomerComponent } from './components/messages-customer/messages-customer.component';
 import { InfoCustomerComponent } from './components/info-customer/info-customer.component';
 import { FormsModule } from '@angular/forms';
-import { DatePipe } from './pipes/date.pipe';
 
 @NgModule({
   declarations: [
@@ -15,7 +14,6 @@ import { DatePipe } from './pipes/date.pipe';
     NavbarComponent,
     MessagesCustomerComponent,
     InfoCustomerComponent,
-    DatePipe
   ],
   imports: [
     BrowserModule,
