@@ -1,0 +1,23 @@
+<div class="container container-main mt-5">
+    <h4>Información del Cliente </h4>
+    <hr>
+    <table class="table">
+        <tr>
+            <th>Telefono</th>
+            <th>Mensaje</th>
+        </tr>
+        <tbody>
+            <tr *ngFor="let phone of phones">
+                <td>
+                    {{ phone.phone }}
+                </td>
+                <td *ngIf="!phone.showDate">
+                    {{ phone.message }} 
+                </td>
+                <td *ngIf="phone.showDate">
+                    {{ phone.messageDate }} 
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
